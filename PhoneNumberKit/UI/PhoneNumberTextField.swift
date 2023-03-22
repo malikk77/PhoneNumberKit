@@ -44,7 +44,7 @@ open class PhoneNumberTextField: UITextField, UITextFieldDelegate {
     /// Override region to set a custom region. Automatically uses the default region code.
     open var defaultRegion: String {
         get {
-            return self._defaultRegion
+            return "US"
         }
         @available(
             *,
